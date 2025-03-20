@@ -8,7 +8,7 @@ document.getElementById('loginForm').addEventListener('submit', function (event)
     // Simple validation (for demo purposes)
     if (username === 'user' && password === 'password') {
       // Redirect to the main blog page
-      window.location.href = 'index.html';
+      window.location.href = '5-1.html';
     } else {
       // Show error message
       document.getElementById('error-message').textContent = 'Invalid username or password.';
